@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.4.4)
+  - Kingfisher (7.1.1)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya-ObjectMapper (2.9):
+    - Moya-ObjectMapper/Core (= 2.9)
+  - Moya-ObjectMapper/Core (2.9):
+    - Moya (~> 14.0.0-beta.6)
+    - ObjectMapper
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - netfox (1.20.0)
+  - ObjectMapper (4.2.0)
+  - youtube-ios-player-helper (1.0.4)
+
+DEPENDENCIES:
+  - Kingfisher (~> 7.0)
+  - Moya-ObjectMapper
+  - netfox
+  - youtube-ios-player-helper
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - Moya
+    - Moya-ObjectMapper
+    - netfox
+    - ObjectMapper
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Kingfisher: f738f9c4a3415823b8e2985d10aa2d6a9f37bc4d
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Moya-ObjectMapper: 967a99d9ea3aa9c93ddbe112aeca3667f53bfe93
+  netfox: 6b5c9724304b0cd99ca8515ac732a9f710e4ea5f
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  youtube-ios-player-helper: e9b97535e816db3152179d84d999bc1807ecd689
+
+PODFILE CHECKSUM: d5ea2f50b079fcc380f1a7982cdf2e63728f85de
+
+COCOAPODS: 1.8.4

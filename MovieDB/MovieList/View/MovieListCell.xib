@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MovieListCell" customModule="MovieDB" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="201" height="321"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="201" height="321"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1zj-lH-SOd">
+                        <rect key="frame" x="0.0" y="0.0" width="201" height="321"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lAXONuqg41NwUMuzMiFvicDET9Y" translatesAutoresizingMaskIntoConstraints="NO" id="bNo-gm-ztz">
+                                <rect key="frame" x="0.0" y="0.0" width="201" height="321"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="bNo-gm-ztz" firstAttribute="top" secondItem="1zj-lH-SOd" secondAttribute="top" id="EIR-8l-Fdo"/>
+                            <constraint firstItem="bNo-gm-ztz" firstAttribute="leading" secondItem="1zj-lH-SOd" secondAttribute="leading" id="YJZ-Vw-Atb"/>
+                            <constraint firstAttribute="bottom" secondItem="bNo-gm-ztz" secondAttribute="bottom" id="ZF0-A7-v9D"/>
+                            <constraint firstAttribute="trailing" secondItem="bNo-gm-ztz" secondAttribute="trailing" id="g2A-qm-wX5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="1zj-lH-SOd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="4h1-70-qyt"/>
+                <constraint firstAttribute="bottom" secondItem="1zj-lH-SOd" secondAttribute="bottom" id="AdU-AU-h2O"/>
+                <constraint firstAttribute="trailing" secondItem="1zj-lH-SOd" secondAttribute="trailing" id="fJB-3y-8i6"/>
+                <constraint firstItem="1zj-lH-SOd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="m2K-ca-g7b"/>
+            </constraints>
+            <size key="customSize" width="201" height="321"/>
+            <connections>
+                <outlet property="moviePoster" destination="bNo-gm-ztz" id="5WF-oi-F9D"/>
+            </connections>
+            <point key="canvasLocation" x="142.75362318840581" y="143.63839285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="lAXONuqg41NwUMuzMiFvicDET9Y" width="2000" height="3000"/>
+    </resources>
+</document>
